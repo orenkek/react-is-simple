@@ -7,7 +7,7 @@ const Posts =(prop) => {
         <img src='https://image.flaticon.com/icons/png/512/147/147144.png'/>
         {prop.message}
         <div>
-          <span>Likes : {prop.Likes}</span>
+          <span>Likes : {prop.likesCount}</span>
         </div>
       </div>
     );
