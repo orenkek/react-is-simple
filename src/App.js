@@ -11,7 +11,7 @@ const App = () => {
     <div className="app-wrapper">
       <Header />
       <Navbar />
-      <ProfileContent />g
+      <ProfileContent />
     </div>
   );
 };

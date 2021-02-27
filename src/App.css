@@ -1,6 +1,6 @@
 .app-wrapper{
   display: grid;
-  width: 1000px;
+  width: 80%;
   margin: 0 auto;
 
   grid-template-areas: 
@@ -8,17 +8,17 @@
   "nav content";
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+  grid-gap: 1%;
 }
 
 .nav{
   grid-area: nav;
-  background-color: burlywood;
+  background-color:darkslategray;
 }
 
 .header{
   grid-area: header;
-  background-color: green;
+  background-color:dimgrey;
 }
 
 .header img{
@@ -27,7 +27,7 @@
 
 .content{
   grid-area: content;
-  background-color: cornflowerblue;
+  background-color: #fff;
 }
 
 .content img{
